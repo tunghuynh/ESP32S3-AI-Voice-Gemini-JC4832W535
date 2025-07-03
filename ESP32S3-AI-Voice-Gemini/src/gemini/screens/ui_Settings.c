@@ -77,7 +77,7 @@ void ui_Settings_screen_init(void)
     lv_obj_set_x(ui_tfssid, 0);
     lv_obj_set_y(ui_tfssid, -76);
     lv_obj_set_align(ui_tfssid, LV_ALIGN_CENTER);
-    lv_textarea_set_text(ui_tfssid, "Meduverse");
+    lv_textarea_set_text(ui_tfssid, "TUNG HUYNH");
     lv_textarea_set_placeholder_text(ui_tfssid, "Placeholder...");
     lv_textarea_set_one_line(ui_tfssid, true);
 
@@ -101,7 +101,7 @@ void ui_Settings_screen_init(void)
     lv_obj_set_x(ui_tfpassword, 0);
     lv_obj_set_y(ui_tfpassword, -3);
     lv_obj_set_align(ui_tfpassword, LV_ALIGN_CENTER);
-    lv_textarea_set_text(ui_tfpassword, "fptnextedu");
+    lv_textarea_set_text(ui_tfpassword, "pwd");
     lv_textarea_set_placeholder_text(ui_tfpassword, "Placeholder...");
     lv_textarea_set_one_line(ui_tfpassword, true);
     lv_textarea_set_password_mode(ui_tfpassword, true);
@@ -126,7 +126,7 @@ void ui_Settings_screen_init(void)
     lv_obj_set_x(ui_tfgeminikey, 0);
     lv_obj_set_y(ui_tfgeminikey, 69);
     lv_obj_set_align(ui_tfgeminikey, LV_ALIGN_CENTER);
-    lv_textarea_set_text(ui_tfgeminikey, "AIzaSyDixf_p6bvDU9UmHFmf-8gTlI00B4aTjDE");
+    lv_textarea_set_text(ui_tfgeminikey, "API-Key");
     lv_textarea_set_placeholder_text(ui_tfgeminikey, "Placeholder...");
     lv_textarea_set_one_line(ui_tfgeminikey, true);
     lv_textarea_set_password_mode(ui_tfgeminikey, true);
